@@ -7,9 +7,11 @@ photo.addEventListener("dblclick", function(){
     setTimeout(function(){
         like_btn.style.color = 'red'
     },300)
+
     // setTimeout(function(){
     //     like.style.opacity = 0;
     // }, 1000)
+    
     setTimeout(function(){
         like.style.transform = 'translate(-50%, -50%) scale(0)'
     },1000)
